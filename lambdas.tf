@@ -96,6 +96,7 @@ resource "aws_lambda_function" "startec2" {
   runtime       = "python3.9"
   handler       = "start_ec2.lambda_handler"
   layers        = ["arn:aws:lambda:us-east-1:901920570463:layer:aws-otel-python-amd64-ver-1-17-0:1"]
+  timeout       = "60"
   environment {
     variables = {
       AWS_LAMBDA_EXEC_WRAPPER = "/opt/otel-instrument"
@@ -113,6 +114,7 @@ resource "aws_lambda_function" "stopec2" {
   runtime       = "python3.9"
   handler       = "stop_ec2.lambda_handler"
   layers        = ["arn:aws:lambda:us-east-1:901920570463:layer:aws-otel-python-amd64-ver-1-17-0:1"]
+  timeout       = "60"
   environment {
     variables = {
       AWS_LAMBDA_EXEC_WRAPPER = "/opt/otel-instrument"
