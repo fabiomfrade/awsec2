@@ -21,7 +21,7 @@ O projeto conta com os seguintes arquivos:
   * files
     * Diretório contendo as funções Python para Start/Stop da EC2 e o arquivo instala_docker.sh que é apenas um _user-data_ a ser executado quando criamos a instância.
 
-
+![Estrutura simplificada](./images/aws_ec2.png "Estrutura simplificada")
 # Purpose
 
 This is a simple project that involves creating an EC2 instance with automatic START/STOP configuration using Lambda functions triggered by events configured in EventBridge.
@@ -44,3 +44,5 @@ The project includes the following files:
     * File where we input the values of Terraform variables.
   * files
     * Directory containing the Python functions for Start/Stop of EC2 and the instala_docker.sh file, which is just a user-data to be executed when we create the instance.
+
+![Simplfied Structure](./images/aws_ec2.png "Simplfied Structure")
