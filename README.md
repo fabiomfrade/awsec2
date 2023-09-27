@@ -1,3 +1,6 @@
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 # Objetivo
 
 Este é um projeto simples que contempla a criação de uma instância _EC2_ com configuração de __START/STOP__ automáticos através de funções _Lambda_ que serão acionadas através de eventos configurados no _EventBridge_.
